@@ -1,4 +1,4 @@
-<div align="center"><img src="https://i.imgur.com/CoK38mV.png" width="75%" /></div>
+<div align="left"><img src="https://i.imgur.com/CoK38mV.png" width="25%" /></div>
 
 ## 📚 Sobre o Repositório
 
@@ -14,10 +14,10 @@ Trilha Java: (Em breve...)
 
 ## 🚀 Estrutura do Repositório
 
-- [Lógica de Programação III – Java: ](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20III%20-%20Java) Exercícios básicos de Java
-- [Lógica de Programação III – POO: ](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20III%20-%20POO) Exercícios de programação orientada a objetos
-- [Lógica de Programação III – Interfaces Gráficas: ](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20III%20-%20Interfaces%20Gr%C3%A1ficas) Exercícios de design de interfaces
-- [Trilha Java: ]() (Em breve...)
+- [Lógica de Programação III – Java:](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20III%20-%20Java) Exercícios básicos de Java
+- [Lógica de Programação III – POO:](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20III%20-%20POO) Exercícios de programação orientada a objetos
+- [Lógica de Programação III – Interfaces Gráficas:](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20III%20-%20Interfaces%20Gr%C3%A1ficas) Exercícios de design de interfaces
+- [Trilha Java:](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/Trilha%20Java) (Em breve...)
 
 ## 🛠 Tecnologias Utilizadas
 
