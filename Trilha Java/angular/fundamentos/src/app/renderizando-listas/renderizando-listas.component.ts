@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Celular } from '../types/Celular';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-renderizando-listas',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './renderizando-listas.component.html',
   styleUrl: './renderizando-listas.component.css'
 })
@@ -17,7 +18,8 @@ export class RenderizandoListasComponent {
       id: 2, nome: "Celular Normal", esgotado: false, 
     },
     {
-      id: 3, nome: "Celular XL", descricao: "Um celular grande", esgotado: false, 
+      id: 3, nome: "Celular XL", descricao: "Um celular grande", esgotado: true, 
     }
   ]
 }
+ 
