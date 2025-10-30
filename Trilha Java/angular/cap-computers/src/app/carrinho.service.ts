@@ -1,22 +1,26 @@
 import { Injectable } from '@angular/core';
+import { IProdutoCarrinho } from './produtos';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CarrinhoService {
-  private itens: any[] = [];
+  itens: IProdutoCarrinho[] = [];
   
   constructor() {}
 
-  obtemCarrinho(): any[] {
-    return this.itens;
+  obtemCarrinho() {
+    return JSON.parse(localStorage.getItem("carrinho") || "");
   }
 
-  adicionarItem(item: any) {
-    this.itens.push(item);
+  adicionarAoCarrinho(produto: IProdutoCarrinho) {
+    this.itens.push(produto);
+    localStorage.setItem("carrinho", JSON.stringify(this.itens));
   }
 
   limparCarrinho() {
     this.itens = [];
+    localStorage.clear();
   }
+
 }
