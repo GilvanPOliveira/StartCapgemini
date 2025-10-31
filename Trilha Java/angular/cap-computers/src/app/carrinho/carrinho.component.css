@@ -60,3 +60,7 @@ input {
 .buy-button:hover {
     filter: brightness(0.9);
 }
+
+.container {
+    margin-bottom: 20px;
+}

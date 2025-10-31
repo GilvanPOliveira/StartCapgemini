@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CarrinhoService } from '../carrinho.service';
 import { BarraPesquisaComponent } from "../barra-pesquisa/barra-pesquisa.component";
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [BarraPesquisaComponent],
+  imports: [BarraPesquisaComponent, RouterModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
