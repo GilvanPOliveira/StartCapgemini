@@ -5,11 +5,10 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-carrinho',
-  standalone: true,
-  imports: [CommonModule, FormsModule],
-  templateUrl: './carrinho.component.html',
-  styleUrl: './carrinho.component.css'
+    selector: 'app-carrinho',
+    imports: [CommonModule, FormsModule],
+    templateUrl: './carrinho.component.html',
+    styleUrl: './carrinho.component.css'
 })
 export class CarrinhoComponent implements OnInit{
 

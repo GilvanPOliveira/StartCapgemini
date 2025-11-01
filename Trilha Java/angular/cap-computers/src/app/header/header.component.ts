@@ -4,11 +4,10 @@ import { BarraPesquisaComponent } from "../barra-pesquisa/barra-pesquisa.compone
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [BarraPesquisaComponent, RouterModule],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+    selector: 'app-header',
+    imports: [BarraPesquisaComponent, RouterModule],
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.css'
 })
 export class HeaderComponent {
 

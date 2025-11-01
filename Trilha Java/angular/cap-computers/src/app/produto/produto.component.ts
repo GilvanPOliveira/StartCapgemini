@@ -8,11 +8,10 @@ import { NotificacaoService } from '../notificacao.service';
 import { CarrinhoService } from '../carrinho.service';
 
 @Component({
-  selector: 'app-produto',
-  standalone: true,
-  imports: [FormsModule, CommonModule],
-  templateUrl: './produto.component.html',
-  styleUrl: './produto.component.css'
+    selector: 'app-produto',
+    imports: [FormsModule, CommonModule],
+    templateUrl: './produto.component.html',
+    styleUrl: './produto.component.css'
 })
 export class ProdutoComponent implements OnInit {
   produto: IProduto | undefined;
