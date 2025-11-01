@@ -14,7 +14,7 @@ export class CarrinhoComponent implements OnInit{
 
   itensCarrinho: IProdutoCarrinho[] = [];
   total = 0;
-
+ 
   constructor (public carrinhoService: CarrinhoService) {}
 
   ngOnInit(): void {
@@ -29,6 +29,7 @@ export class CarrinhoComponent implements OnInit{
   removerProdutoCarrinho(produtoId: number) {
     this.itensCarrinho = this.itensCarrinho.filter(item => item.id !== produtoId);
     this.carrinhoService.removerProdutoCarrinho(produtoId);
+    this.calcularTotal();
   }
 
 }

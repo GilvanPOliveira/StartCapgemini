@@ -10,14 +10,22 @@ export class CarrinhoService {
   constructor() {}
 
   obtemCarrinho() {
-    this.itens = JSON.parse(localStorage.getItem("carrinho") || "");
+    const itens = localStorage.getItem("carrinho");
+    this.itens = itens ? JSON.parse(itens) : [];
     return this.itens;
   }
 
   adicionarAoCarrinho(produto: IProdutoCarrinho) {
-    this.itens.push(produto);
+    const itemExistente = this.itens.find(item => item.id === produto.id);
+
+    if (itemExistente) {
+      itemExistente.quantidade += produto.quantidade;
+    } else {
+      this.itens.push(produto);
+    }
+
     localStorage.setItem("carrinho", JSON.stringify(this.itens));
-  }
+  } 
 
   removerProdutoCarrinho(produtoId: number) {
     this.itens = this.itens.filter(item => item.id !== produtoId);
@@ -26,7 +34,7 @@ export class CarrinhoService {
 
   limparCarrinho() {
     this.itens = [];
-    localStorage.clear();
+    localStorage.removeItem("carrinho");
   }
 
 }
