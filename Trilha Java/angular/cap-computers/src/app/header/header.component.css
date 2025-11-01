@@ -10,7 +10,12 @@
 .main-header__title {    
     font-size: 80px;
     margin-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main-header__title a {
+    text-decoration: none;
 }
 
 .main-header__title--blue {
@@ -57,4 +62,11 @@
     padding: 5px 10px;    
     border-radius: 4px;
     color: white;
+}
+
+.main-header__menu a.active {
+  background-color: var(--blue);
+  color: var(--light-gray-2);
+  border-bottom: 3px solid var(--orange);
+  transition: all 0.3s ease-in-out;
 }

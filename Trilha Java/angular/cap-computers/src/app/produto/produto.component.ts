@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Route } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ProdutosService } from '../produtos.service';
 import { IProduto, IProdutoCarrinho } from '../produtos';
 import { FormsModule } from '@angular/forms';
@@ -17,7 +17,7 @@ export class ProdutoComponent implements OnInit {
   produto: IProduto | undefined;
   quantidade = 1;
 
-  constructor(private produtosService: ProdutosService, private route: ActivatedRoute, private notificacaoService: NotificacaoService, private carrinhoService: CarrinhoService
+  constructor(private produtosService: ProdutosService, private route: ActivatedRoute, private notificacaoService: NotificacaoService, private carrinhoService: CarrinhoService, private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -33,5 +33,11 @@ export class ProdutoComponent implements OnInit {
       quantidade: this.quantidade,
     }
     this.carrinhoService.adicionarAoCarrinho(produto);
+    this.router.navigate(["produtos"]);
   }
+
+  voltar() {
+  this.router.navigate(["/produtos"]);
+  }
+
 }

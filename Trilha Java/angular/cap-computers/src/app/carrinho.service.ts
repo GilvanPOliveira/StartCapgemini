@@ -36,5 +36,5 @@ export class CarrinhoService {
     this.itens = [];
     localStorage.removeItem("carrinho");
   }
-
+ 
 }

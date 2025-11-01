@@ -1,4 +1,11 @@
-<form class="search-form">
-  <input type="text">
-  <button><i class="fa-solid fa-magnifying-glass"></i></button>
-</form> 
+<form class="search-form" (submit)="buscar(); $event.preventDefault()">
+  <input
+    type="text"
+    placeholder="Buscar produto..."
+    [(ngModel)]="termo"
+    name="termo"
+  >
+  <button type="submit">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+</form>

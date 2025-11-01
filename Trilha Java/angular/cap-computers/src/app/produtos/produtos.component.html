@@ -1,17 +1,20 @@
-<section class="product-list">
-  <div class="product-list__card" *ngFor="let produto of produtos">
+<section class="product-list" *ngIf="produtosFiltrados.length > 0; else semProdutos">
+  <div class="product-list__card" *ngFor="let produto of produtosFiltrados">
     <a [routerLink]="['/produtos', produto.id]" class="product-list__link">
       <img [src]="produto.imagem" alt="{{ produto.descricao }}">
-      <h2 class="product-item__name">
-        {{ produto.descricao }}
-      </h2>
-      <p class="product-item__price">
-        {{ produto.preco | currency: "BRL" }}
-      </p>
-      <p class="product-item__price-description">
-        {{ produto.descricaoPreco }}
-      </p>
+      <h2 class="product-item__name">{{ produto.descricao }}</h2>
+      <p class="product-item__price">{{ produto.preco | currency: 'BRL' }}</p>
+      <p class="product-item__price-description">{{ produto.descricaoPreco }}</p>
       <button class="product-item__buy-button" type="button">Comprar</button>
     </a>
   </div>
 </section>
+
+<ng-template #semProdutos>
+  <div class="empty-cart empty-products">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <h3>Nenhum produto encontrado</h3>
+    <p *ngIf="termoBusca">para "{{ termoBusca }}"</p>
+    <p *ngIf="!termoBusca">Tente buscar por outro termo ou volte à lista completa.</p>
+  </div>
+</ng-template>
