@@ -16,7 +16,7 @@ export class BarraPesquisaComponent {
 
   buscar() {
     if (this.termo.trim()) {
-    this.router.navigate(['/produtos'], { queryParams: { q: this.termo } }).then(() => this.termo = '');
+    this.router.navigate(['/produtos'], { queryParams: { descricao: this.termo } }).then(() => this.termo = '');
     } else {
       this.router.navigate(['/produtos']);
     }

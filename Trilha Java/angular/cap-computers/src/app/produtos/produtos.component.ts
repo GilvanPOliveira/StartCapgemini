@@ -26,7 +26,7 @@ export class ProdutosComponent implements OnInit {
     this.produtos = this.produtosService.getAll();
 
     this.route.queryParams.subscribe(params => {
-      const termo = params['q'] ? params['q'].trim().toLowerCase() : '';
+      const termo = params['descricao'] ? params['descricao'].trim().toLowerCase() : '';
       this.termoBusca = termo;
       if (termo) {
         this.filtrarProdutos(termo);
