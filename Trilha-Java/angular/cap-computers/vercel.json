@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "Trilha-Java/angular/cap-computers/package.json",
+      "src": "package.json",
       "use": "@vercel/angular"
     }
   ],
-  "outputDirectory": "Trilha-Java/angular/cap-computers/dist/cap-computers",
+  "outputDirectory": "dist/cap-computers",
   "routes": [
     {
       "src": "/(.*)",
