@@ -1,5 +1,13 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "TrilhaJava/Angular/CapComputers/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist/CapComputers" }
+    }
+  ],
+  "framework": "angular",
+  "buildCommand": "npm run build",
+  "outputDirectory": "TrilhaJava/Angular/CapComputers/dist/CapComputers"
 }

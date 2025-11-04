@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -14,9 +14,7 @@
     "overrides": [
       {
         "files": "*.html",
-        "options": {
-          "parser": "angular"
-        }
+        "options": { "parser": "angular" }
       }
     ]
   },
