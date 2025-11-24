@@ -41,10 +41,8 @@ A organização geral da trilha segue a sequência de aprendizado:
   Lógica no navegador, manipulação de DOM, eventos, chamadas assíncronas e jQuery.  
 
 - **Angular**  
-  Fundamentos do framework e projetos práticos:  
-  - **CapComputers** – mini e-commerce de informática  
-  - **Fundamentos** – laboratório de conceitos essenciais do Angular  
-  - **Roteamento** – projeto focado em Angular Router e guards  
+Fundamentos do framework para construção de aplicações SPA com componentes, serviços, rotas e integração com HTTP.
+
 
 - **Criando APIs com Angular**  
   Consumo de APIs, integração front-end/back-end e comunicação HTTP.
@@ -67,11 +65,6 @@ A organização geral da trilha segue a sequência de aprendizado:
 ## 🛠 Tecnologias Utilizadas
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,angular,java,n&perline=10)](https://github.com/GilvanPOliveira)
-
-- **HTML5 / CSS3**
-- **JavaScript** e **jQuery**
-- **Angular**
-- **Java** (fundamentos, OO e web)
 
 ## 📬 Contato
 
