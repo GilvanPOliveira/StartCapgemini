@@ -1,27 +1,56 @@
-# Roteamento
+<div align="left"><img src="https://i.imgur.com/CoK38mV.png" width="25%" /></div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+## 📚 Roteamento Angular
 
-## Development server
+Este repositório contém um projeto de estudo focado em **roteamento com Angular 18**, utilizando **standalone components** e **Angular Router**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A aplicação demonstra, de forma simples e prática:
 
-## Code scaffolding
+- Criação e configuração de rotas
+- Navegação programática com `Router`
+- Uso de `routerLink` e `<router-outlet>`
+- Rotas com **parâmetros** e **query params**
+- Rotas protegidas com **Auth Guard**
+- Simulação de login com **AuthService** e `sessionStorage`
+- Tratamento de rota padrão (redirect) e rota coringa (**404**)
+- Exemplo de **lazy loading** de componente via `loadComponent`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Estrutura do Projeto
 
-## Build
+```
+roteamento/
+├─ angular.json
+├─ package.json
+├─ server.ts                   # Suporte para SSR (opcional)
+└─ src/
+   ├─ main.ts
+   └─ app/
+      ├─ app.component.ts
+      ├─ app.component.html    # Menu com routerLink + router-outlet
+      ├─ app.component.css
+      ├─ app.config.ts         # provideRouter(routes), provideClientHydration
+      ├─ app.routes.ts         # Definição das rotas
+      │
+      ├─ primeira-pagina/
+      ├─ segunda-pagina/
+      ├─ pagina-com-parametros/
+      ├─ pagina-protegida/
+      ├─ pagina-nao-encontrada/
+      ├─ login/
+      ├─ lazy-loading/
+      │
+      ├─ auth.service.ts       # Lógica de autenticação (token fake em sessionStorage)
+      └─ auth.guard.ts         # Guard de rota (CanActivateFn)
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠 Tecnologias Utilizadas
 
-## Running unit tests
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular,typescript&perline=10)](https://github.com/GilvanPOliveira)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📬 Contato
 
-## Running end-to-end tests
+Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
+- E-mail: gilvanoliveira06@gmail.com
+- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/Angular)

@@ -1,27 +1,69 @@
-# Fundamentos
+<div align="left"><img src="https://i.imgur.com/CoK38mV.png" width="25%" /></div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+## 📚 Fundamentos Angular
 
-## Development server
+Este repositório reúne exemplos práticos dos **fundamentos do Angular**, organizados em componentes independentes para treinar os principais conceitos do framework na versão 18.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+A aplicação funciona como um “laboratório” de estudo, onde cada card da tela demonstra um tópico específico:
 
-## Code scaffolding
+- Criação de componentes standalone
+- Templates, interpolação e event binding
+- Pipes nativos e pipes customizados
+- Two-way data binding com `ngModel`
+- Renderização de listas com `*ngFor` e `ngClass`
+- Comunicação entre componentes (Input/Output)
+- Serviços, injeção de dependência e compartilhamento de estado
+- Ciclo de vida dos componentes (OnInit, OnChanges, OnDestroy)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🚀 Estrutura do Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Estrutura principal (simplificada):
 
-## Running unit tests
+```text
+fundamentos/
+├─ angular.json
+├─ package.json
+├─ server.ts                  # Suporte para SSR (Angular Universal)
+├─ public/
+│  ├─ camaleao.jpg
+│  └─ favicon.ico
+└─ src/
+   ├─ main.ts
+   └─ app/
+      ├─ app.component.ts
+      ├─ app.component.html   # Cards com todos os exemplos
+      ├─ app.component.css
+      ├─ app.config.ts
+      ├─ app.routes.ts
+      │
+      ├─ primeiro-component/          # Primeiro componente simples
+      ├─ segundo-component/           # Templates, interpolação, pipes e eventos
+      ├─ pipe-customizado/            # Uso do pipe customizado
+      ├─ multiplica-por.pipe.ts       # Pipe "multiplicaPor"
+      ├─ two-way-data-binding/        # Two-way data binding com ngModel
+      ├─ renderizando-listas/         # Listas, *ngFor, ngClass
+      ├─ types/
+      │  └─ Celular.ts                # Tipo usado na lista de celulares
+      ├─ componente-personalizado/    # Componente com @Input
+      ├─ componente-pai/              # Comunicação pai → filho → pai
+      ├─ componente-filho/
+      ├─ logger.service.ts            # Serviço de log compartilhado
+      ├─ exemplo-servicos1/
+      ├─ exemplo-servicos2/           # Exemplos de DI e uso de serviço
+      ├─ ciclo-de-vida-pai/           # Input + binding para o ciclo de vida
+      └─ ciclo-de-vida/               # OnInit, OnChanges, OnDestroy
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠 Tecnologias Utilizadas
 
-## Running end-to-end tests
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular,typescript&perline=10)](https://github.com/GilvanPOliveira)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📬 Contato
 
-## Further help
+Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
+- E-mail: gilvanoliveira06@gmail.com
+- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/Angular)
