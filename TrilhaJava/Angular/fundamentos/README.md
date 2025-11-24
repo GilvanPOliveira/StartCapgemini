@@ -15,8 +15,6 @@ A aplicação funciona como um “laboratório” de estudo, onde cada card da t
 - Serviços, injeção de dependência e compartilhamento de estado
 - Ciclo de vida dos componentes (OnInit, OnChanges, OnDestroy)
 
----
-
 ## 🚀 Estrutura do Projeto
 
 Estrutura principal (simplificada):
