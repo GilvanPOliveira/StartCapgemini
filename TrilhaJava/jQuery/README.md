@@ -29,12 +29,12 @@ A estrutura do projeto foi organizada de forma simples e direta:
   - Campo de filtro por nome
   - Tabela onde os contatos são listados dinamicamente
 
-- [`css/style.css`](css/style.css): Arquivo de estilos responsável por:
+- [`style.css`](./style.css): Arquivo de estilos responsável por:
   - Layout principal e responsivo
   - Estilização do formulário, tabela e botões
   - Feedback visual de mensagens de sucesso e erro
 
-- [`js/app.js`](js/app.js): Script com toda a lógica da aplicação:
+- [`app.js`](./app.js): Script com toda a lógica da aplicação:
   - Captura e tratamento do envio do formulário
   - Validação básica dos campos
   - Criação e inserção de linhas na tabela via jQuery

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Central de Contatos - JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./validacao.js" defer></script>
+  </head>
+
+  <body>
+    <h1></h1>
+
+    <div class="container">
+      <section class="coluna">
+        <h2>Cadastro de Contato</h2>
+
+        <form id="form-contato">
+          <input
+            type="text"
+            placeholder="Nome"
+            id="nome"
+            onkeyup="ocultarErro(); atualizarPreview();"
+          >
+
+          <input
+            type="email"
+            placeholder="E-mail"
+            id="email"
+            onkeyup="ocultarErro(); atualizarPreview();"
+          >
+
+          <select
+            id="cargo"
+            onchange="ocultarErro(); atualizarPreview();"
+          >
+            <option>Cargo</option>
+            <option>Analista de Software</option>
+            <option>Atendente</option>
+            <option>Designer</option>
+            <option>Gerente</option>
+            <option>Programador</option>
+          </select>
+
+          <textarea
+            placeholder="Mensagem"
+            id="mensagem"
+            onkeyup="ocultarErro(); atualizarPreview();"
+          ></textarea>
+
+          <input
+            type="submit"
+            value="Cadastrar"
+          >
+        </form>
+      </section>
+
+      <section class="coluna preview">
+        <h2>Pré-visualização</h2>
+        <p><strong>Nome:</strong> <span id="prev-nome">—</span></p>
+        <p><strong>E-mail:</strong> <span id="prev-email">—</span></p>
+        <p><strong>Cargo:</strong> <span id="prev-cargo">—</span></p>
+        <p><strong>Mensagem:</strong></p>
+        <p id="prev-mensagem">—</p>
+      </section>
+    </div>
+
+    <section class="lista">
+      <h2>Contatos cadastrados</h2>
+      <div class="tabela-wrapper">
+        <table id="tabela-contatos">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>E-mail</th>
+              <th>Cargo</th>
+              <th>Mensagem</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Resultado adicionado via JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>

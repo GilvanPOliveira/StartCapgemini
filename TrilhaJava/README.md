@@ -39,7 +39,6 @@ A organização geral da trilha segue a sequência de aprendizado:
 
 - **JavaScript, JQuery e Ajax**  
   Lógica no navegador, manipulação de DOM, eventos, chamadas assíncronas e jQuery.  
-  > Inclui, por exemplo, o mini projeto de **cadastro de contatos com jQuery**.
 
 - **Angular**  
   Fundamentos do framework e projetos práticos:  
@@ -64,9 +63,6 @@ A organização geral da trilha segue a sequência de aprendizado:
 
 - **CSS (Avançado)**  
   Flexbox, Grid, animações, transições e layouts responsivos mais sofisticados.
-
-> À medida que novos exercícios e projetos forem sendo concluídos, cada item desta trilha pode ganhar sua própria pasta e README detalhado.
-
 
 ## 🛠 Tecnologias Utilizadas
 
