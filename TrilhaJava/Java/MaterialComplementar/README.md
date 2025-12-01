@@ -1,4 +1,8 @@
-<div align="left"><img src="https://i.imgur.com/CoK38mV.png" width="25%" /></div>
+<div align="center">
+<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
+<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
+</a>
+</div>
 
 ## 📚 Sobre o Projeto
 
@@ -73,4 +77,4 @@ Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
 - E-mail: **gilvanoliveira06@gmail.com**
 - Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
 
-[Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/Java)
+[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/Java)
