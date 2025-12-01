@@ -10,10 +10,6 @@ Este repositório reúne exercícios resolvidos durante o curso Lógica de Progr
 
 Lógica de Programação III – Java: Exercícios básicos para praticar a sintaxe da linguagem Java, operações matemáticas, uso de condicionais e laços de repetição.
 
-Lógica de Programação III – POO: Desafios de programação orientada a objetos, propostos em uma lista de exercícios. Eles incluem a criação de classes para representar pessoas, contas bancárias, bombas de combustível, elevadores, alunos, faturas e diversos outros modelos
-
-Lógica de Programação III – Interfaces Gráficas: Exercícios sobre criação de interfaces em Java. As atividades envolvem, por exemplo, implementar uma tela de login/autenticação, reproduzir a tela principal do NetBeans e desenvolver uma interface semelhante à do sistema de declaração de imposto de renda
-
 Trilha Java: reúne materiais, exercícios e mini projetos que conectam lógica de programação, desenvolvimento web (HTML, CSS, JavaScript, jQuery, Angular) e Java. A ideia é servir como uma trilha contínua de estudos, mostrando a evolução do aprendizado desde os fundamentos até aplicações mais completas em front-end e back-end.
 
 
