@@ -1,82 +1,70 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# Trilha Java
 
-## 👨🏼‍💻 Trilha Java
+Trilha de estudos integrando lógica de programação, desenvolvimento web e Java.
 
-## 📚 Sobre o Repositório
+##
 
-Este diretório reúne os **materiais, exercícios e projetos** desenvolvidos ao longo da **Trilha Java** do programa Start Capgemini.
+## Sobre
 
-A trilha foi organizada para construir a base passo a passo, começando por lógica de programação, passando por HTML, CSS, JavaScript e Angular, até chegar ao desenvolvimento em **Java (Fundamentos, OO, Web)**.
+Este diretório reúne conteúdos desenvolvidos ao longo da trilha Java, com progressão desde lógica de programação até construção de aplicações com tecnologias web e backend.
 
-Cada tópico da lista abaixo corresponde a um conjunto de conteúdos (aulas, exercícios, desafios ou projetos) que você foi desenvolvendo ao longo do curso.
+##
 
+## Conteúdos
 
-## 🚀 Estrutura da Trilha Java
+📌 Lógica de Programação
 
-A organização geral da trilha segue a sequência de aprendizado:
+* algoritmos
+* estruturas de decisão
+* laços de repetição
 
-- **Introdução a Lógica de Programação**  
-  Primeiros conceitos de algoritmos, variáveis, operações básicas e raciocínio lógico.
+📌 HTML
 
-- **Lógica de Programação e Algoritmo I**  
-  Exercícios de algoritmos sequenciais e decisões simples (if/else).
+* estrutura de páginas
+* formulários
+* semântica
 
-- **Lógica de Programação e Algoritmo II**  
-  Repetições, laços de controle, tratamento de múltiplos cenários e exercícios mais elaborados.
+📌 CSS
 
-- **Lógica de Programação e Algoritmo III**  
-  Estruturas de dados básicas (vetores, matrizes) e problemas mais complexos combinando decisão + repetição.
+* estilização
+* layout
+* responsividade
 
-- **Fundamentos do HTML5 – Módulo 1**  
-  Estrutura base de páginas, tags semânticas e organização de conteúdo.
+📌 JavaScript / jQuery / Ajax
 
-- **Fundamentos do HTML5 – Módulo 2**  
-  Formularios, tabelas, links, imagens e boas práticas de marcação.
+* manipulação de DOM
+* eventos
+* requisições assíncronas
 
-- **Fundamentos do HTML5 – Módulo 3**  
-  Componentes mais avançados, acessibilidade e refinamento da estrutura das páginas.
+📌 Angular
 
-- **Fundamentos do CSS**  
-  Estilização, cores, tipografia, box model, posicionamento e layout responsivo básico.
+* componentes
+* serviços
+* rotas
+* consumo de API
 
-- **JavaScript, JQuery e Ajax**  
-  Lógica no navegador, manipulação de DOM, eventos, chamadas assíncronas e jQuery.  
+📌 Java
 
-- **Angular**  
-Fundamentos do framework para construção de aplicações SPA com componentes, serviços, rotas e integração com HTTP.
+* fundamentos
+* orientação a objetos
+* desenvolvimento web
 
+##
 
-- **Criando APIs com Angular**  
-  Consumo de APIs, integração front-end/back-end e comunicação HTTP.
+## Stack
 
-- **Java (Fundamentos)**  
-  Sintaxe básica, tipos primitivos, classes, métodos, pacotes e organização de projetos.
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,angular,java)](https://skillicons.dev)
 
-- **Linguagem de Programação em Java**  
-  Programação orientada a objetos, herança, polimorfismo, collections e tratamento de exceções.
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Angular
+* Java
 
-- **Java (Web)**  
-  Desenvolvimento de aplicações web com Java (Servlets, JSP/JSF ou frameworks equivalentes, conforme o conteúdo da trilha).
+##
 
-- **HTML (Avançado)**  
-  Recursos mais modernos, semântica aprofundada, acessibilidade e melhores práticas.
+## Contato
 
-- **CSS (Avançado)**  
-  Flexbox, Grid, animações, transições e layouts responsivos mais sofisticados.
-
-## 🛠 Tecnologias Utilizadas
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,angular,java,n&perline=10)](https://github.com/GilvanPOliveira)
-
-## 📬 Contato
-
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-
-- E-mail: **gilvanoliveira06@gmail.com**
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
-
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini)
+* Portfólio: https://gilvanpoliveira.github.io/
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
