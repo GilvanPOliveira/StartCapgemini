@@ -1,71 +1,130 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# Fundamentos Angular
 
-## 📚 Fundamentos Angular
+Módulo de estudos focado nos conceitos fundamentais do Angular.
 
-Este repositório reúne exemplos práticos dos **fundamentos do Angular**, organizados em componentes independentes para treinar os principais conceitos do framework na versão 18.
+##
 
-A aplicação funciona como um “laboratório” de estudo, onde cada card da tela demonstra um tópico específico:
+## Sobre
 
-- Criação de componentes standalone
-- Templates, interpolação e event binding
-- Pipes nativos e pipes customizados
-- Two-way data binding com `ngModel`
-- Renderização de listas com `*ngFor` e `ngClass`
-- Comunicação entre componentes (Input/Output)
-- Serviços, injeção de dependência e compartilhamento de estado
-- Ciclo de vida dos componentes (OnInit, OnChanges, OnDestroy)
+Este projeto reúne exemplos práticos dos fundamentos do Angular, organizados em componentes independentes.
 
-## 🚀 Estrutura do Projeto
+A aplicação funciona como um ambiente de estudo, onde cada parte demonstra um conceito específico do framework.
 
-Estrutura principal (simplificada):
+##
+
+## Objetivo
+
+Consolidar conhecimentos essenciais do Angular, incluindo:
+
+* criação de componentes standalone
+* uso de templates, interpolação e event binding
+* utilização de pipes nativos e customizados
+* two-way data binding com `ngModel`
+* renderização de listas com diretivas
+* comunicação entre componentes
+* uso de serviços e injeção de dependência
+* ciclo de vida dos componentes
+
+##
+
+## Conteúdos
+
+### Componentes
+
+* criação de componentes standalone
+* organização e reutilização de componentes
+
+##
+
+### Templates e Binding
+
+* interpolação
+* property binding
+* event binding
+* two-way data binding
+
+##
+
+### Pipes
+
+* uso de pipes nativos
+* criação de pipe customizado
+
+##
+
+### Listas e Diretivas
+
+* renderização com `ngFor`
+* uso de `ngClass`
+
+##
+
+### Comunicação entre Componentes
+
+* Input e Output
+* interação entre componentes pai e filho
+
+##
+
+### Serviços
+
+* criação de serviços
+* injeção de dependência
+* compartilhamento de estado
+
+##
+
+### Ciclo de Vida
+
+* OnInit
+* OnChanges
+* OnDestroy
+
+##
+
+## Estrutura do Projeto
 
 ```text
 fundamentos/
-├─ angular.json
-├─ package.json
-├─ server.ts                  # Suporte para SSR (Angular Universal)
 ├─ public/
-│  ├─ camaleao.jpg
-│  └─ favicon.ico
 └─ src/
-   ├─ main.ts
    └─ app/
-      ├─ app.component.ts
-      ├─ app.component.html   # Cards com todos os exemplos
-      ├─ app.component.css
-      ├─ app.config.ts
-      ├─ app.routes.ts
-      │
-      ├─ primeiro-component/          # Primeiro componente simples
-      ├─ segundo-component/           # Templates, interpolação, pipes e eventos
-      ├─ pipe-customizado/            # Uso do pipe customizado
-      ├─ multiplica-por.pipe.ts       # Pipe "multiplicaPor"
-      ├─ two-way-data-binding/        # Two-way data binding com ngModel
-      ├─ renderizando-listas/         # Listas, *ngFor, ngClass
+      ├─ primeiro-component/
+      ├─ segundo-component/
+      ├─ pipe-customizado/
+      ├─ multiplica-por.pipe.ts
+      ├─ two-way-data-binding/
+      ├─ renderizando-listas/
       ├─ types/
-      │  └─ Celular.ts                # Tipo usado na lista de celulares
-      ├─ componente-personalizado/    # Componente com @Input
-      ├─ componente-pai/              # Comunicação pai → filho → pai
+      ├─ componente-personalizado/
+      ├─ componente-pai/
       ├─ componente-filho/
-      ├─ logger.service.ts            # Serviço de log compartilhado
+      ├─ logger.service.ts
       ├─ exemplo-servicos1/
-      ├─ exemplo-servicos2/           # Exemplos de DI e uso de serviço
-      ├─ ciclo-de-vida-pai/           # Input + binding para o ciclo de vida
-      └─ ciclo-de-vida/               # OnInit, OnChanges, OnDestroy
+      ├─ exemplo-servicos2/
+      ├─ ciclo-de-vida-pai/
+      └─ ciclo-de-vida/
 ```
 
-## 🛠 Tecnologias Utilizadas
+##
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular,typescript&perline=10)](https://github.com/GilvanPOliveira)
+## Tecnologias Utilizadas
 
-## 📬 Contato
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular,typescript&perline=10)](https://skillicons.dev)
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: gilvanoliveira06@gmail.com
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+* HTML  
+* CSS  
+* JavaScript  
+* TypeScript  
+* Angular  
 
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/Angular)
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/Angular)
