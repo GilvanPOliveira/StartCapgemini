@@ -1,58 +1,81 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# Java Fundamentos
 
-## 📚 Sobre o Diretório
+Módulo de estudos focado nos fundamentos da linguagem Java.
 
-O diretório **JavaFundamentos** faz parte da Trilha Java do programa Start Capgemini e reúne:
+##
 
-- Os **exercícios individuais** de fundamentos em Java (tipos, operadores, laços, classes, herança, polimorfismo)
-- Um **Projeto Final integrador**, que consolida todos esses conceitos em uma única aplicação de console com menu
+## Sobre
 
-A ideia é mostrar a evolução natural do estudo:
+Este diretório faz parte da Trilha Java e reúne exercícios individuais e um projeto final integrador.
 
-1. Começar com pequenos exemplos focados em um conceito por vez  
-2. Avançar para um projeto maior, que conecta tudo em um mesmo fluxo
+A estrutura foi organizada para demonstrar a evolução do aprendizado, iniciando com conceitos básicos e avançando para uma aplicação completa em console.
 
+##
 
-## 🚀 Estrutura do Diretório
+## Objetivo
 
-- [`Fundamentos`](./Fundamentos)  
-  Conjunto de mini-projetos em Java, cada um abordando um tópico específico:
-  - MeuPrimeiroProg
-  - TiposDeDados
-  - Literais
-  - EntradaDeDados
-  - OperadoresAritmeticos
-  - OperadoresRelacLogicos
-  - ComandosCondicionais
-  - LacosRepeticao
-  - ClasseConceito
-  - Heranca
-  - Polimorfismo  
+Consolidar conhecimentos fundamentais em Java, incluindo:
 
-  > Cada pasta contém um pequeno programa que foca em um conceito fundamental da linguagem.
+* tipos de dados e operadores
+* estruturas de controle
+* entrada de dados
+* orientação a objetos
+* herança e polimorfismo
+* organização de aplicações em módulos
 
-- [`ProjetoFinal`](./ProjetoFinal)  
-  Projeto integrador em console que combina:
-  - Módulo de **Fundamentos** (tipos, operadores, laços, entrada de dados)
-  - Módulo de **Cadastro de Pessoas** (herança com `Pessoa`, `Fisica`, `Juridica`)
-  - Módulo de **Relatório de Mamíferos** (polimorfismo com `Mamifero` e subclasses)
+##
 
-  A aplicação é acessada por um **menu principal**, permitindo navegar entre os módulos e testar, na prática, os conceitos estudados na pasta `Fundamentos`.
+## Conteúdos
 
+### [Fundamentos](./Fundamentos)  
 
-## 🛠 Tecnologias Utilizadas
+* tipos de dados
+* literais
+* entrada de dados
+* operadores aritméticos e lógicos
+* comandos condicionais
+* laços de repetição
+* classes e conceitos iniciais de orientação a objetos
+* herança
+* polimorfismo
 
-[![My Skills](https://skillicons.dev/icons?i=java,n&perline=10)](https://github.com/GilvanPOliveira)
+##
+
+### [Projeto Final](./ProjetoFinal)  
 
 
-## 📬 Contato
+* integração dos conceitos fundamentais
+* cadastro de pessoas com herança
+* uso de polimorfismo com diferentes tipos de entidades
+* navegação por menu em aplicação de console
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: **gilvanoliveira06@gmail.com**
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+##
 
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava)
+## Estrutura do Diretório
+
+```text
+JavaFundamentos/
+├─ Fundamentos/
+└─ ProjetoFinal/
+```
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=java&perline=10)](https://skillicons.dev)
+
+* Java  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava)
+
+
