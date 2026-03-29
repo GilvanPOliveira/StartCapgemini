@@ -1,129 +1,127 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# CapComputers
 
-## 💻 CapComputers
+Aplicação web simulando um e-commerce de produtos de informática desenvolvida com Angular.
 
-O **CapComputers** é uma loja virtual fictícia de produtos de informática desenvolvida em **Angular 20**.  
-O projeto foi criado com foco em prática de:
+##
 
-- Single Page Application (SPA) com **Angular standalone components**
-- **Rotas** e navegação entre páginas
-- **Serviços** para regra de negócio e compartilhamento de dados
-- Persistência simples com **LocalStorage**
-- Formulários reativos (**Reactive Forms**) e validações
-- Feedback ao usuário com **notificações (snack bar)**
+## Sobre
 
-A aplicação simula uma experiência básica de e-commerce, com listagem de produtos, detalhes, carrinho de compras e página de contato.
+O CapComputers é uma aplicação construída com Angular, com foco na prática de desenvolvimento de Single Page Application (SPA).
 
-## 📚 Funcionalidades
+O projeto simula uma loja virtual, incluindo listagem de produtos, navegação entre páginas, carrinho de compras e formulário de contato.
 
-### 🛒 Catálogo de Produtos
+##
 
-- Página principal `/produtos` listando todos os produtos disponíveis.
-- Dados centralizados em `src/produtos.ts` (interfaces e lista estática de produtos).
-- Cada card exibe:
-  - Imagem do produto
-  - Descrição
-  - Preço formatado em BRL
-  - Texto auxiliar (ex: “À vista no PIX”)
-- Clique no produto leva para a rota de detalhes (`/produtos/:id`).
+## Objetivo
 
-### 🔍 Barra de Pesquisa
+Aplicar conceitos fundamentais do Angular, incluindo:
 
-- Componente `BarraPesquisa` no header.
-- Input de busca que filtra produtos pela descrição.
-- Filtro **case-insensitive** e com normalização de acentos.
+* estruturação de aplicações SPA
+* uso de componentes standalone
+* navegação e roteamento
+* organização de serviços
+* persistência de dados com LocalStorage
+* construção de formulários reativos
 
-### 📄 Detalhe do Produto
+##
 
-- Página de detalhes acessada por `/produtos/:id`.
-- Exibe informações completas do produto selecionado.
-- Botão para **adicionar ao carrinho**.
-- Usa `ProdutosService` para buscar o produto correto.
+## Funcionalidades
 
-### 🧺 Carrinho de Compras
+### Catálogo de Produtos
 
-- Página `/carrinho`.
-- Mostra os itens adicionados com:
-  - Imagem
-  - Descrição
-  - Preço unitário
-  - Campo de **quantidade** editável
-- Cálculo automático do **total da compra**.
-- Possibilidade de:
-  - Remover itens do carrinho
-  - Limpar o carrinho
-- Persistência simples via **LocalStorage** (`CarrinhoService`).
+* listagem de produtos
+* exibição de imagem, descrição e preço
+* navegação para detalhes do produto
 
-### ✉️ Página de Contato
+##
 
-- Página `/contato`.
-- Formulário reativo com validações:
-  - Nome com tamanho mínimo
-  - E-mail em formato válido
-  - Campo de mensagem obrigatório
-- Exibição de mensagens de erro abaixo dos campos inválidos.
-- Envio do formulário dispara ação de feedback/validação no front-end.
+### Detalhe do Produto
 
-### 🚫 Página Não Encontrada
+* visualização completa do produto
+* adição ao carrinho
 
-- Rota curinga `**` redireciona para o componente `PaginaNaoEncontrada`.
-- Tratamento amigável para URLs inválidas.
+##
 
-### 🍞 Notificações
+### Carrinho de Compras
 
-- `NotificacaoService` encapsula o uso de **MatSnackBar**.
-- Exibe mensagens como “O produto foi adicionado ao carrinho” no topo da tela.
+* listagem de itens adicionados
+* edição de quantidade
+* cálculo automático do total
+* remoção e limpeza do carrinho
+* persistência com LocalStorage
 
-## 🚀 Estrutura do Projeto
+##
 
-Estrutura principal (simplificada):
+### Pesquisa
+
+* filtro de produtos por descrição
+* busca case-insensitive
+
+##
+
+### Formulário de Contato
+
+* formulário reativo com validações
+* exibição de mensagens de erro
+
+##
+
+### Navegação
+
+* rotas entre páginas
+* parâmetros de rota
+* tratamento de rota não encontrada
+
+##
+
+### Notificações
+
+* exibição de mensagens ao usuário via snackbar
+
+##
+
+## Estrutura do Projeto
 
 ```text
 CapComputers/
-├─ angular.json
-├─ package.json
-├─ public/
-│  └─ assets/
-│     ├─ mouse-*.jpg
-│     ├─ monitor-*.jpg
-│     ├─ teclado-*.jpg
-│     ├─ fone-de-ouvido-*.jpg
-│     ├─ hd.jpg
-│     └─ outros arquivos de imagem
-└─ src/
-   ├─ main.ts
-   ├─ produtos.ts              # Interfaces e lista de produtos
-   └─ app/
-      ├─ app.ts                # Componente raiz (standalone)
-      ├─ app.html              # Template raiz (header + router-outlet + footer)
-      ├─ app.css               # Estilos globais do app
-      ├─ app.routes.ts         # Definição de rotas
-      ├─ app.config.ts         # Configuração da aplicação
-      ├─ header/               # Cabeçalho e menu de navegação
-      ├─ footer/               # Rodapé
-      ├─ barra-pesquisa/      # Componente da barra de busca
-      ├─ produtos/            # Lista de produtos
-      ├─ produto/             # Detalhe do produto
-      ├─ carrinho/            # Página do carrinho
-      ├─ contato/             # Página de contato (Reactive Forms)
-      ├─ pagina-nao-encontrada/  # 404 amigável
-      ├─ produtos.service.ts  # Serviço de produtos
-      ├─ carrinho.service.ts  # Serviço do carrinho (LocalStorage)
-      └─ notificacao.service.ts # Serviço de notificações (snackbar)
+├─ public/assets/
+├─ src/
+│  ├─ produtos.ts
+│  └─ app/
+│     ├─ app.routes.ts
+│     ├─ header/
+│     ├─ footer/
+│     ├─ barra-pesquisa/
+│     ├─ produtos/
+│     ├─ produto/
+│     ├─ carrinho/
+│     ├─ contato/
+│     ├─ pagina-nao-encontrada/
+│     ├─ produtos.service.ts
+│     ├─ carrinho.service.ts
+│     └─ notificacao.service.ts
 ```
 
-## 🛠 Tecnologias Utilizadas
+##
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular,typescript&perline=10)](https://github.com/GilvanPOliveira)
+## Tecnologias Utilizadas
 
-## 📬 Contato
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular,typescript&perline=10)](https://skillicons.dev)
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: gilvanoliveira06@gmail.com
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+* HTML  
+* CSS  
+* JavaScript  
+* TypeScript  
+* Angular  
 
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/Angular)
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/Angular)
+
