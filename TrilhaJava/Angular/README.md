@@ -1,71 +1,91 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# Angular
 
-## 📚 Sobre este diretório
+Módulo de estudos focado no desenvolvimento de aplicações com Angular.
 
-Este diretório reúne três projetos em **Angular**, usados para estudo e prática dos principais recursos do framework:
+##
 
-- Conceitos fundamentais do Angular
-- Roteamento, navegação e guarda de rotas
-- Criação de uma aplicação mais próxima de um e-commerce real
+## Sobre
 
-Cada subpasta contém um projeto Angular independente, com seu próprio `package.json`, configuração e README específico.
+Este módulo reúne projetos práticos desenvolvidos com Angular, abordando desde os fundamentos do framework até a construção de aplicações mais completas.
 
-## 🚀 Projetos incluídos
+A proposta é consolidar conhecimentos essenciais, explorando estrutura, arquitetura e boas práticas no desenvolvimento frontend com Angular.
 
-### [CapComputers](./CapComputers)
+##
 
-Loja virtual fictícia de produtos de informática, desenvolvida em Angular, simulando um pequeno **e-commerce**:
+## Objetivo
 
-- Listagem de produtos com cards
-- Página de detalhes do produto
-- Carrinho de compras com persistência em `localStorage`
-- Página de contato com formulários reativos
-- Notificações de ação (como “produto adicionado ao carrinho”)
+Desenvolver domínio sobre o ecossistema Angular, incluindo:
 
-> README detalhado em: [`CapComputers/README.md`](./CapComputers/README.md)
+* criação de componentes e estrutura da aplicação
+* manipulação de dados e interação com o DOM
+* navegação e roteamento
+* comunicação entre componentes
+* consumo de APIs e organização de serviços
 
-### [Fundamentos Angular](./fundamentos)
+##
 
-“Laboratório” de estudos focado nos **fundamentos do Angular**:
+## Projetos
 
-- Criação de componentes standalone
-- Interpolação, event binding e property binding
-- Pipes nativos e pipe customizado (`multiplicaPor`)
-- Two-way data binding com `[(ngModel)]`
-- Renderização de listas e uso de `*ngFor` / `ngClass`
-- Comunicação entre componentes (Input/Output)
-- Serviços e injeção de dependência
-- Ciclo de vida dos componentes (OnInit, OnChanges, OnDestroy)
+### Fundamentos Angular
 
+Projeto focado nos conceitos iniciais do Angular:
+
+* criação de componentes standalone
+* data binding (interpolação, property e event binding)
+* two-way binding com `ngModel`
+* diretivas estruturais (`ngFor`, `ngClass`)
+* pipes nativos e customizados
+* comunicação entre componentes (Input/Output)
+* serviços e injeção de dependência
+* ciclo de vida dos componentes
 > README detalhado em: [`fundamentos/README.md`](./fundamentos/README.md)
 
-### [Roteamento Angular](./roteamento)
+##
 
-Projeto dedicado ao **roteamento com Angular Router**:
+### Roteamento Angular
 
-- Configuração de rotas com `provideRouter`
-- Navegação com `routerLink` e `Router.navigate`
-- Rotas com parâmetros e query params
-- Página protegida com **AuthGuard** e `AuthService`
-- Simulação simples de login usando `sessionStorage`
-- Rota coringa (404) e redirect da rota padrão
-- Exemplo de lazy loading de componente via `loadComponent`
+Projeto dedicado à navegação e controle de acesso:
 
+* configuração de rotas
+* navegação com router
+* parâmetros e query params
+* proteção de rotas com guard
+* simulação de autenticação
+* tratamento de rotas inexistentes (404)
+* lazy loading de componentes
 > README detalhado em: [`roteamento/README.md`](./roteamento/README.md)
 
+##
 
-## 🛠 Tecnologias Utilizadas
+### CapComputers
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,angular,java,n&perline=10)](https://github.com/GilvanPOliveira)
+Aplicação simulando um e-commerce:
 
-## 📬 Contato
+* listagem de produtos
+* página de detalhes
+* carrinho com persistência em `localStorage`
+* formulários reativos
+* notificações de interação
+> README detalhado em: [`CapComputers/README.md`](./CapComputers/README.md)
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: gilvanoliveira06@gmail.com
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+##
 
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava)
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* Angular  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava)
