@@ -1,78 +1,113 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# Fundamentos
 
-## 📚 Sobre o Projeto
+Módulo de estudos com exercícios práticos da linguagem Java.
 
-Esta pasta reúne os **exercícios originais de Fundamentos em Java**, organizados em pequenos projetos independentes (cada um com seu próprio `src/`) fornecido como material complementar.
+##
 
-O objetivo é praticar, de forma incremental:
+## Sobre
 
-- Primeiros passos com Java e `main`
-- Tipos de dados e literais
-- Entrada de dados
-- Operadores aritméticos, relacionais e lógicos
-- Comandos condicionais
-- Laços de repetição
-- Criação de classes
-- Herança e polimorfismo (em exemplos simples)
+Este diretório reúne exercícios organizados em pequenos projetos independentes.
 
-Cada subpasta representa um mini-projeto focado em um conceito específico.
+Cada projeto aborda um conceito específico da linguagem, permitindo a prática incremental dos fundamentos.
 
-## 🚀 Estrutura dos Exercícios
+##
 
-- [`MeuPrimeiroProg`](./MeuPrimeiroProg)  
-  Primeiro contato com Java: classe principal que exibe mensagens no console, trabalhando com `main` e `System.out.println`.
+## Objetivo
 
-- [`TiposDeDados`](./TiposDeDados)  
-  Demonstra o uso de **tipos primitivos** (int, float, double, char, boolean) e `String`, além de atribuição de valores e impressão.
+Consolidar conhecimentos iniciais em Java, incluindo:
 
-- [`Literais`](./Literais)  
-  Exemplos de **literais** numéricos, de caracteres, booleanos e texto, mostrando como o Java interpreta diferentes formas de escrita de valores.
+* primeiros passos com a linguagem
+* tipos de dados e literais
+* entrada de dados
+* operadores e expressões
+* estruturas condicionais
+* laços de repetição
+* criação de classes
+* herança e polimorfismo
 
-- [`EntradaDeDados`](./EntradaDeDados)  
-  Exercício sobre **entrada de dados**, lendo informações digitadas pelo usuário (via console ou `JOptionPane`) e exibindo os resultados tratados.
+##
 
-- [`OperadoresAritmeticos`](./OperadoresAritmeticos)  
-  Uso de **operações matemáticas** básicas: soma, subtração, multiplicação, divisão e resto (`%`), com variáveis numéricas.
+## Conteúdos
 
-- [`OperadoresRelacLogicos`](./OperadoresRelacLogicos)  
-  Demonstração de **operadores relacionais** (`>`, `<`, `>=`, `<=`, `==`, `!=`) e **lógicos** (`&&`, `||`, `!`), avaliando expressões booleanas.
+### Introdução
 
-- [`ComandosCondicionais`](./ComandosCondicionais)  
-  Prática de **estruturas de decisão**, como `if`, `else if`, `else` (e possivelmente `switch`), controlando o fluxo conforme condições.
+* estrutura básica de um programa Java
+* método main
+* saída de dados no console
 
-- [`LacosRepeticao`](./LacosRepeticao)  
-  Exercícios com **laços de repetição** (`for`, `while`, `do-while`), realizando contagens e repetições baseadas em condições.
+##
 
-- [`ClasseConceito`](./ClasseConceito)  
-  Introdução a **classes e objetos**:
-  - Classe `Pessoa` com atributos privados, getters/setters e `toString()`
-  - Classe `Principal` para criar instâncias e exibir os dados da pessoa
+### Tipos de Dados
 
-- [`Heranca`](./Heranca)  
-  Exemplo de **herança**:
-  - Classe base `Pessoa`
-  - Subclasses `Fisica` e `Juridica` com atributos específicos (CPF, CNPJ, etc.)  
-  Demonstra como reutilizar e especializar comportamento.
+* tipos primitivos
+* String
+* atribuição e manipulação de valores
 
-- [`Polimorfismo`](./Polimorfismo)  
-  Exercício de **polimorfismo**:
-  - Classe abstrata `Mamifero` com o método `cotaDiariaLeite()`
-  - Implementações concretas como `Elefante` e `Rato`  
-  Um programa principal usa uma referência genérica (`Mamifero`) para acessar comportamentos diferentes em cada subclasse.
+##
 
-## 🛠 Tecnologias Utilizadas
+### Entrada de Dados
 
-[![My Skills](https://skillicons.dev/icons?i=java,n&perline=10)](https://github.com/GilvanPOliveira)
+* leitura de dados via console
+* manipulação de entrada do usuário
 
+##
 
-## 📬 Contato
+### Operadores
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: **gilvanoliveira06@gmail.com**
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+* operadores aritméticos
+* operadores relacionais
+* operadores lógicos
 
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/JavaFundamentos)
+##
+
+### Estruturas de Controle
+
+* comandos condicionais
+* laços de repetição
+
+##
+
+### Orientação a Objetos
+
+* criação de classes e objetos
+* encapsulamento com getters e setters
+* herança
+* polimorfismo
+
+##
+
+## Estrutura dos Exercícios
+
+```text
+Fundamentos/
+├─ MeuPrimeiroProg/
+├─ TiposDeDados/
+├─ Literais/
+├─ EntradaDeDados/
+├─ OperadoresAritmeticos/
+├─ OperadoresRelacLogicos/
+├─ ComandosCondicionais/
+├─ LacosRepeticao/
+├─ ClasseConceito/
+├─ Heranca/
+└─ Polimorfismo/
+```
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=java&perline=10)](https://skillicons.dev)
+
+* Java  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/JavaFundamentos)
