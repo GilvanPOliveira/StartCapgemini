@@ -1,55 +1,80 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# Java
 
-## 📚 Sobre o Diretório
+Módulo de estudos focado no desenvolvimento com a linguagem Java.
 
-Este diretório **Java** faz parte da Trilha Java do programa Start Capgemini e foi organizado em duas áreas:
+##
 
-- **MaterialComplementar**: reúne exemplos, atividades e modelos práticos de Linguagem Java (coleções, generics, datas, JDBC/DAO, etc.)
-- **ProjetoFinal**: reúne o **projeto integrador final**, unificando os conceitos estudados em uma aplicação completa de console
+## Sobre
 
-A ideia é mostrar a evolução do aprendizado:
+Este diretório faz parte da Trilha Java e está organizado em duas áreas principais: MaterialComplementar e ProjetoFinal.
 
-1. Praticar conceitos isolados em exemplos pequenos  
-2. Consolidar tudo em um sistema final com menu e regras de negócio
+A estrutura representa a evolução do aprendizado, iniciando com exercícios isolados e avançando para a construção de uma aplicação completa.
 
-## 🚀 Estrutura do Diretório
+##
 
-- [`MaterialComplementar`](./MaterialComplementar)  
-  Pasta com exercícios e exemplos para praticar os principais tópicos da linguagem Java, incluindo:
-  - Construtores, `enum` e `interface`
-  - Arrays e matrizes
-  - Coleções (`ArrayList`, `LinkedList`) e operações básicas
-  - Wrappers e autoboxing
-  - `for-each` para percorrer listas e arrays
-  - Generics (`<T>`) para reaproveitamento de código
-  - Datas (`Date`, `Calendar`, `SimpleDateFormat`)
-  - Persistência com JDBC e padrão DAO
+## Objetivo
 
-  > Cada subpasta contém um mini-projeto independente para facilitar o estudo por tópico.
+Consolidar conhecimentos em Java, incluindo:
 
-- [`ProjetoFinal`](./ProjetoFinal)  
-  Pasta com o **Projeto Final – Linguagem Java**, que integra os conteúdos em uma aplicação de console:
-  - Cadastro e listagem de voos
-  - Cadastro de passageiros e associação a voos
-  - Fila de decolagem usando **Generics** e **LinkedList**
-  - Controle de status com `enum`
-  - Uso de datas para agendamento e exibição
-  - Organização por pacotes (app, modelo, coleções, datas)
-  - Menu principal com navegação via `Scanner`
+* fundamentos da linguagem
+* estruturas de dados e coleções
+* orientação a objetos
+* manipulação de datas
+* persistência com JDBC
+* organização de aplicações em camadas
 
+##
 
-## 🛠 Tecnologias Utilizadas
+## Conteúdos
 
-[![My Skills](https://skillicons.dev/icons?i=java,postgres,n&perline=10)](https://github.com/GilvanPOliveira)
+### [Material Complementar](./MaterialComplementar)  
 
-## 📬 Contato
+* construtores, enum e interface
+* arrays e matrizes
+* coleções como ArrayList e LinkedList
+* wrappers e autoboxing
+* uso de for-each
+* generics para reaproveitamento de código
+* manipulação de datas
+* persistência com JDBC e padrão DAO
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: **gilvanoliveira06@gmail.com**
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+##
 
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava)
+### [Projeto Final](./ProjetoFinal)  
+
+* cadastro e listagem de dados
+* associação entre entidades
+* uso de filas com LinkedList
+* controle de status com enum
+* manipulação de datas
+* organização por pacotes
+* menu interativo via console
+
+##
+
+## Estrutura do Diretório
+
+```text
+Java/
+├─ MaterialComplementar/
+└─ ProjetoFinal/
+```
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=java&perline=10)](https://skillicons.dev)
+
+* Java  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava)
