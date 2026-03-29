@@ -1,80 +1,122 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# Material Complementar
 
-## 📚 Sobre o Projeto
+Módulo de estudos com exemplos práticos da linguagem Java.
 
-Esta pasta reúne **exemplos e atividades práticas de Linguagem Java**, organizadas em pequenos projetos independentes para demonstrar os principais conceitos da linguagem.
+##
 
-O objetivo é consolidar, de forma incremental:
+## Sobre
 
-- Classes, construtores, `enum` e `interface`
-- Arrays (1D) e matrizes (2D)
-- Coleções (`ArrayList`, `LinkedList`) e operações comuns
-- Wrappers e autoboxing
-- `for-each` para percorrer listas e arrays
-- Generics (tipagem genérica e reaproveitamento de código)
-- Datas (formatação e manipulação com `Date`, `Calendar`, `SimpleDateFormat`)
-- Persistência com JDBC (DAO e operações básicas no banco)
+Este diretório reúne exemplos e atividades práticas organizadas em pequenos projetos independentes.
 
-Cada subpasta representa um mini-projeto focado em um tema específico.
+Cada projeto aborda um conceito específico da linguagem, permitindo a prática incremental dos conteúdos.
 
-## 🚀 Estrutura dos Exemplos
+##
 
-> Os nomes abaixo representam os temas estudados. Se os nomes das suas pastas estiverem diferentes, você pode ajustar os links/títulos para bater exatamente com a sua estrutura.
+## Objetivo
 
-- **Construtores, Enum e Interface**
-  - Exemplos de criação de objetos com construtores
-  - Uso de `enum` (ex.: status)
-  - Implementação de `interface` em classes concretas
+Consolidar conhecimentos fundamentais em Java, incluindo:
 
-- **Arrays (Vetor)**
-  - Declaração, inicialização e acesso por índice
-  - Percurso com `for` e `for-each`
+* classes, construtores, enum e interface
+* arrays e matrizes
+* coleções e estruturas de dados
+* wrappers e autoboxing
+* uso de for-each
+* generics e reutilização de código
+* manipulação de datas
+* persistência com JDBC
 
-- **Arrays Multidimensionais (Matriz)**
-  - Estruturas 2D
-  - Percurso por linhas e colunas
+##
 
-- **ArrayList**
-  - Inserção, remoção, busca e iteração
-  - Uso com objetos (`List<Carro>`, por exemplo)
+## Conteúdos
 
-- **LinkedList**
-  - Inserção/remoção nas extremidades
-  - Simulação de fila/pilha quando aplicável
+### Estruturas Básicas
 
-- **Wrappers**
-  - Uso de classes wrapper (`Integer`, `Double`, `Boolean`…)
-  - Autoboxing / Unboxing
+* classes e construtores
+* enum e interface
 
-- **ForEach**
-  - Prática de `for-each` percorrendo arrays e listas
+##
 
-- **Generics**
-  - Classes genéricas (`<T>`)
-  - Reuso de lógica com tipagem segura
+### Arrays e Matrizes
 
-- **Datas**
-  - Formatação com `SimpleDateFormat`
-  - Manipulação com `Date` e `Calendar`
+* arrays unidimensionais
+* arrays multidimensionais
 
-- **Persistência (JDBC / DAO)**
-  - Conexão com banco
-  - Padrão DAO (ex.: `PessoaDao`)
-  - CRUD básico via JDBC
+##
 
+### Coleções
 
-## 🛠 Tecnologias Utilizadas
+* ArrayList
+* LinkedList
+* operações de inserção, remoção e busca
 
-[![My Skills](https://skillicons.dev/icons?i=java,postgres,n&perline=10)](https://github.com/GilvanPOliveira)
+##
 
-## 📬 Contato
+### Wrappers
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: **gilvanoliveira06@gmail.com**
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+* uso de classes wrapper
+* autoboxing e unboxing
 
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/Java)
+##
+
+### Iteração
+
+* uso de for-each em arrays e listas
+
+##
+
+### Generics
+
+* classes genéricas
+* reaproveitamento de código com tipagem segura
+
+##
+
+### Datas
+
+* manipulação com Date e Calendar
+* formatação com SimpleDateFormat
+
+##
+
+### Persistência
+
+* conexão com banco de dados
+* padrão DAO
+* operações CRUD com JDBC
+
+##
+
+## Estrutura dos Exemplos
+
+```text
+MaterialComplementar/
+├─ construtores/
+├─ arrays/
+├─ matrizes/
+├─ arraylist/
+├─ linkedlist/
+├─ wrappers/
+├─ foreach/
+├─ generics/
+├─ datas/
+└─ jdbc-dao/
+```
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=java&perline=10)](https://skillicons.dev)
+
+* Java  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/Java)
