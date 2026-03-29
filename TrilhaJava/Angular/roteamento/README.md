@@ -1,40 +1,88 @@
-<div align="center">
-<a href="https://capgeminischool.brazilsouth.cloudapp.azure.com/">
-<img src="https://i.imgur.com/CoK38mV.png" width="30%" />
-</a>
-</div>
+# Roteamento Angular
 
-## 📚 Roteamento Angular
+Módulo de estudos focado em navegação e controle de rotas com Angular.
 
-Este repositório contém um projeto de estudo focado em **roteamento com Angular 18**, utilizando **standalone components** e **Angular Router**.
+##
 
-A aplicação demonstra, de forma simples e prática:
+## Sobre
 
-- Criação e configuração de rotas
-- Navegação programática com `Router`
-- Uso de `routerLink` e `<router-outlet>`
-- Rotas com **parâmetros** e **query params**
-- Rotas protegidas com **Auth Guard**
-- Simulação de login com **AuthService** e `sessionStorage`
-- Tratamento de rota padrão (redirect) e rota coringa (**404**)
-- Exemplo de **lazy loading** de componente via `loadComponent`
+Este projeto apresenta a implementação de roteamento em aplicações Angular, utilizando componentes standalone e Angular Router.
 
-## 🚀 Estrutura do Projeto
+A aplicação demonstra, de forma prática, como estruturar navegação, proteger rotas e gerenciar estados de acesso.
 
-```
+##
+
+## Objetivo
+
+Consolidar conhecimentos sobre roteamento no Angular, incluindo:
+
+* criação e configuração de rotas
+* navegação entre páginas
+* uso de parâmetros e query params
+* proteção de rotas com guard
+* controle de acesso com autenticação simulada
+* organização de rotas e lazy loading
+
+##
+
+## Conteúdos
+
+### Configuração de Rotas
+
+* definição de rotas da aplicação
+* uso de `router-outlet`
+* navegação com `routerLink`
+
+##
+
+### Navegação
+
+* navegação programática com Router
+* transição entre páginas
+
+##
+
+### Parâmetros de Rota
+
+* uso de parâmetros dinâmicos
+* uso de query params
+
+##
+
+### Proteção de Rotas
+
+* implementação de Auth Guard
+* controle de acesso a páginas protegidas
+
+##
+
+### Autenticação
+
+* simulação de login com AuthService
+* uso de sessionStorage para controle de estado
+
+##
+
+### Tratamento de Rotas
+
+* redirecionamento de rota padrão
+* tratamento de rota não encontrada (404)
+
+##
+
+### Lazy Loading
+
+* carregamento sob demanda de componentes
+
+##
+
+## Estrutura do Projeto
+
+```text
 roteamento/
-├─ angular.json
-├─ package.json
-├─ server.ts                   # Suporte para SSR (opcional)
-└─ src/
-   ├─ main.ts
+├─ src/
    └─ app/
-      ├─ app.component.ts
-      ├─ app.component.html    # Menu com routerLink + router-outlet
-      ├─ app.component.css
-      ├─ app.config.ts         # provideRouter(routes), provideClientHydration
-      ├─ app.routes.ts         # Definição das rotas
-      │
+      ├─ app.routes.ts
       ├─ primeira-pagina/
       ├─ segunda-pagina/
       ├─ pagina-com-parametros/
@@ -42,19 +90,29 @@ roteamento/
       ├─ pagina-nao-encontrada/
       ├─ login/
       ├─ lazy-loading/
-      │
-      ├─ auth.service.ts       # Lógica de autenticação (token fake em sessionStorage)
-      └─ auth.guard.ts         # Guard de rota (CanActivateFn)
+      ├─ auth.service.ts
+      └─ auth.guard.ts
 ```
 
-## 🛠 Tecnologias Utilizadas
+##
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular,typescript&perline=10)](https://github.com/GilvanPOliveira)
+## Tecnologias Utilizadas
 
-## 📬 Contato
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,angular,typescript&perline=10)](https://skillicons.dev)
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: gilvanoliveira06@gmail.com
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+* HTML  
+* CSS  
+* JavaScript  
+* TypeScript  
+* Angular  
 
-[<- Retornar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/Angular)
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/StartCapgemini/tree/main/TrilhaJava/Angular)
