@@ -81,6 +81,12 @@ Aplicação simulando um e-commerce:
 
 ##
 
+## Deploy
+
+- [Acessar Deploy](https://url-real-do-capcomputers)
+
+##
+
 ## Contato
 
 * Portfólio: https://gilvanpoliveira.github.io  
