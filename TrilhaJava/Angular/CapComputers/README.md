@@ -116,6 +116,12 @@ CapComputers/
 
 ##
 
+## Deploy
+
+- [Acessar Deploy](https://cap-computers.vercel.app/)
+
+##
+
 ## Contato
 
 * Portfólio: https://gilvanpoliveira.github.io  
