@@ -83,7 +83,7 @@ Aplicação simulando um e-commerce:
 
 ## Deploy
 
-- [Acessar Deploy](https://url-real-do-capcomputers)
+- [Acessar Deploy](https://cap-computers.vercel.app/)
 
 ##
 
